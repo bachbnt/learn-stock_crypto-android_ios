@@ -14,7 +14,6 @@ fun HomeScreen() {
     Column() {
         Balance(balance = 1000000)
         FavoriteServices(data = repo.getServices("favorite"))
-        SuggestionServices(data = repo.getServices("suggestion"))
     }
 }
 

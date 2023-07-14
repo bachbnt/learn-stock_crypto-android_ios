@@ -6,10 +6,9 @@ import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountBox
-import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.res.painterResource
 
 @SuppressLint("UnrememberedMutableState")
 @Composable
@@ -22,7 +21,9 @@ fun Balance(balance: Int) {
             isVisible.value = !isVisible.value
         }) {
             Icon(
-                imageVector = if (isVisible.value) Icons.Filled.AccountBox else Icons.Filled.AccountCircle,
+                painter = if (isVisible.value) painterResource(id = app.web.bachbntdev.stokrypto.R.drawable.visibility) else painterResource(
+                    id = app.web.bachbntdev.stokrypto.R.drawable.visibility_off
+                ),
                 contentDescription = "balance"
             )
         }
