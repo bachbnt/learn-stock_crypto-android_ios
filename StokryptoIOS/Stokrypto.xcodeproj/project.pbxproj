@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C07EA942A6E763800344BFA /* ServiceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA932A6E763800344BFA /* ServiceDataSource.swift */; };
+		3C07EA962A6E7EDB00344BFA /* ServiceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA952A6E7EDB00344BFA /* ServiceUseCase.swift */; };
+		3C07EA982A6E8D1C00344BFA /* ArticleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA972A6E8D1C00344BFA /* ArticleDataSource.swift */; };
+		3C07EA9A2A6E8D7D00344BFA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA992A6E8D7D00344BFA /* Article.swift */; };
 		3C2A02592A6140ED0064A32E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A02582A6140ED0064A32E /* Service.swift */; };
 		3C2A025B2A6144830064A32E /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A025A2A6144830064A32E /* ServiceModel.swift */; };
 		3C2A025F2A61458D0064A32E /* ServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A025E2A61458D0064A32E /* ServiceRepository.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C07EA932A6E763800344BFA /* ServiceDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDataSource.swift; sourceTree = "<group>"; };
+		3C07EA952A6E7EDB00344BFA /* ServiceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUseCase.swift; sourceTree = "<group>"; };
+		3C07EA972A6E8D1C00344BFA /* ArticleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDataSource.swift; sourceTree = "<group>"; };
+		3C07EA992A6E8D7D00344BFA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		3C2A02582A6140ED0064A32E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		3C2A025A2A6144830064A32E /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
 		3C2A025E2A61458D0064A32E /* ServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRepository.swift; sourceTree = "<group>"; };
@@ -54,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C07EA912A6E757A00344BFA /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				3C07EA932A6E763800344BFA /* ServiceDataSource.swift */,
+				3C07EA972A6E8D1C00344BFA /* ArticleDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		3C07EA922A6E758800344BFA /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				3C07EA952A6E7EDB00344BFA /* ServiceUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 		3C2A02502A61342D0064A32E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +91,7 @@
 		3C2A02512A6134630064A32E /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				3C07EA922A6E758800344BFA /* UseCases */,
 				3C2A025C2A61453E0064A32E /* Repositories */,
 				3C2A02552A6140000064A32E /* Entities */,
 			);
@@ -75,6 +101,7 @@
 		3C2A02522A61346C0064A32E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3C07EA912A6E757A00344BFA /* DataSources */,
 				3C2A025D2A6145450064A32E /* Repositories */,
 				3C2A02532A613FF10064A32E /* Models */,
 			);
@@ -93,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				3C2A02582A6140ED0064A32E /* Service.swift */,
+				3C07EA992A6E8D7D00344BFA /* Article.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -243,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C99754B2A6523EE00DE25A3 /* MarketScreen.swift in Sources */,
+				3C07EA982A6E8D1C00344BFA /* ArticleDataSource.swift in Sources */,
 				3C2A02632A614B190064A32E /* MainScreen.swift in Sources */,
+				3C07EA962A6E7EDB00344BFA /* ServiceUseCase.swift in Sources */,
 				3C99754D2A6523F800DE25A3 /* OtherScreen.swift in Sources */,
 				3C4893162A5FDAD900F6EED5 /* StokryptoApp.swift in Sources */,
 				3C2A02672A614B3A0064A32E /* FavoriteServices.swift in Sources */,
@@ -252,7 +282,9 @@
 				3C2A02652A614B270064A32E /* HomeScreen.swift in Sources */,
 				3C2A02592A6140ED0064A32E /* Service.swift in Sources */,
 				3C2A025B2A6144830064A32E /* ServiceModel.swift in Sources */,
+				3C07EA942A6E763800344BFA /* ServiceDataSource.swift in Sources */,
 				3C9975472A6523DA00DE25A3 /* AssetScreen.swift in Sources */,
+				3C07EA9A2A6E8D7D00344BFA /* Article.swift in Sources */,
 				3C2A02612A6146690064A32E /* ServiceRepositoryImpl.swift in Sources */,
 				3C9975492A6523E500DE25A3 /* TradingScreen.swift in Sources */,
 			);

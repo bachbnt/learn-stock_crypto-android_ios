@@ -8,5 +8,5 @@
 import Foundation
 
 protocol ServiceRepository {
-    func getServices(type: String) -> [Service]
+    func getServices() -> [Service]
 }
