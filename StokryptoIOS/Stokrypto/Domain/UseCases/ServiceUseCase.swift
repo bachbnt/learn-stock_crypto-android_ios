@@ -11,7 +11,7 @@ protocol ServiceUseCase {
     func invoke() -> [Service]
 }
 
-class FetchServiceUseCase : ServiceUseCase {
+class FetchServiceUseCase: ServiceUseCase {
     let repository: ServiceRepository
     
     init(repository: ServiceRepository) {

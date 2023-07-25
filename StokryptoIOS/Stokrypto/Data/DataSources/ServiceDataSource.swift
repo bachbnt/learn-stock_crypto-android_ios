@@ -32,8 +32,6 @@ class ServiceLocalDataSourceImpl: ServiceLocalDataSource {
     func createService() -> Bool {
         return true
     }
-    
-    
 }
 
 class ServiceRemoteDataSourceImpl: ServiceRemoteDataSource {
@@ -44,6 +42,4 @@ class ServiceRemoteDataSourceImpl: ServiceRemoteDataSource {
     func postService() -> Bool {
         return true
     }
-    
-    
 }

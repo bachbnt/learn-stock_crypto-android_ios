@@ -11,6 +11,19 @@
 		3C07EA962A6E7EDB00344BFA /* ServiceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA952A6E7EDB00344BFA /* ServiceUseCase.swift */; };
 		3C07EA982A6E8D1C00344BFA /* ArticleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA972A6E8D1C00344BFA /* ArticleDataSource.swift */; };
 		3C07EA9A2A6E8D7D00344BFA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA992A6E8D7D00344BFA /* Article.swift */; };
+		3C07EA9C2A6F704400344BFA /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA9B2A6F704400344BFA /* ArticleRepository.swift */; };
+		3C07EA9E2A6F705F00344BFA /* ArticleRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA9D2A6F705F00344BFA /* ArticleRepositoryImpl.swift */; };
+		3C07EAA02A6F710800344BFA /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EA9F2A6F710800344BFA /* ArticleModel.swift */; };
+		3C07EAA42A6F743000344BFA /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAA32A6F743000344BFA /* NewsFeed.swift */; };
+		3C07EAA62A6F749500344BFA /* ArticleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAA52A6F749500344BFA /* ArticleUseCase.swift */; };
+		3C07EAA82A6F838100344BFA /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAA72A6F838100344BFA /* Asset.swift */; };
+		3C07EAAA2A6F845B00344BFA /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAA92A6F845B00344BFA /* AssetModel.swift */; };
+		3C07EAAC2A6F883000344BFA /* AssetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAAB2A6F883000344BFA /* AssetRepository.swift */; };
+		3C07EAAE2A6F888700344BFA /* AssetRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAAD2A6F888700344BFA /* AssetRepositoryImpl.swift */; };
+		3C07EAB02A6F88A300344BFA /* AssetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAAF2A6F88A300344BFA /* AssetDataSource.swift */; };
+		3C07EAB22A6FACD700344BFA /* AssetUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAB12A6FACD700344BFA /* AssetUseCase.swift */; };
+		3C07EAB42A6FB64300344BFA /* WatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAB32A6FB64300344BFA /* WatchList.swift */; };
+		3C07EAB62A6FC30600344BFA /* AssetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07EAB52A6FC30600344BFA /* AssetItem.swift */; };
 		3C2A02592A6140ED0064A32E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A02582A6140ED0064A32E /* Service.swift */; };
 		3C2A025B2A6144830064A32E /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A025A2A6144830064A32E /* ServiceModel.swift */; };
 		3C2A025F2A61458D0064A32E /* ServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A025E2A61458D0064A32E /* ServiceRepository.swift */; };
@@ -33,6 +46,19 @@
 		3C07EA952A6E7EDB00344BFA /* ServiceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUseCase.swift; sourceTree = "<group>"; };
 		3C07EA972A6E8D1C00344BFA /* ArticleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDataSource.swift; sourceTree = "<group>"; };
 		3C07EA992A6E8D7D00344BFA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		3C07EA9B2A6F704400344BFA /* ArticleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepository.swift; sourceTree = "<group>"; };
+		3C07EA9D2A6F705F00344BFA /* ArticleRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepositoryImpl.swift; sourceTree = "<group>"; };
+		3C07EA9F2A6F710800344BFA /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		3C07EAA32A6F743000344BFA /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		3C07EAA52A6F749500344BFA /* ArticleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleUseCase.swift; sourceTree = "<group>"; };
+		3C07EAA72A6F838100344BFA /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		3C07EAA92A6F845B00344BFA /* AssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModel.swift; sourceTree = "<group>"; };
+		3C07EAAB2A6F883000344BFA /* AssetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRepository.swift; sourceTree = "<group>"; };
+		3C07EAAD2A6F888700344BFA /* AssetRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRepositoryImpl.swift; sourceTree = "<group>"; };
+		3C07EAAF2A6F88A300344BFA /* AssetDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDataSource.swift; sourceTree = "<group>"; };
+		3C07EAB12A6FACD700344BFA /* AssetUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetUseCase.swift; sourceTree = "<group>"; };
+		3C07EAB32A6FB64300344BFA /* WatchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchList.swift; sourceTree = "<group>"; };
+		3C07EAB52A6FC30600344BFA /* AssetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetItem.swift; sourceTree = "<group>"; };
 		3C2A02582A6140ED0064A32E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		3C2A025A2A6144830064A32E /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
 		3C2A025E2A61458D0064A32E /* ServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRepository.swift; sourceTree = "<group>"; };
@@ -67,6 +93,7 @@
 			children = (
 				3C07EA932A6E763800344BFA /* ServiceDataSource.swift */,
 				3C07EA972A6E8D1C00344BFA /* ArticleDataSource.swift */,
+				3C07EAAF2A6F88A300344BFA /* AssetDataSource.swift */,
 			);
 			path = DataSources;
 			sourceTree = "<group>";
@@ -75,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				3C07EA952A6E7EDB00344BFA /* ServiceUseCase.swift */,
+				3C07EAA52A6F749500344BFA /* ArticleUseCase.swift */,
+				3C07EAB12A6FACD700344BFA /* AssetUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -112,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				3C2A025A2A6144830064A32E /* ServiceModel.swift */,
+				3C07EA9F2A6F710800344BFA /* ArticleModel.swift */,
+				3C07EAA92A6F845B00344BFA /* AssetModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +152,7 @@
 			children = (
 				3C2A02582A6140ED0064A32E /* Service.swift */,
 				3C07EA992A6E8D7D00344BFA /* Article.swift */,
+				3C07EAA72A6F838100344BFA /* Asset.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -143,6 +175,9 @@
 			children = (
 				3C2A02662A614B3A0064A32E /* FavoriteServices.swift */,
 				3C99754E2A65266400DE25A3 /* Balance.swift */,
+				3C07EAA32A6F743000344BFA /* NewsFeed.swift */,
+				3C07EAB32A6FB64300344BFA /* WatchList.swift */,
+				3C07EAB52A6FC30600344BFA /* AssetItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -151,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				3C2A025E2A61458D0064A32E /* ServiceRepository.swift */,
+				3C07EA9B2A6F704400344BFA /* ArticleRepository.swift */,
+				3C07EAAB2A6F883000344BFA /* AssetRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -159,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				3C2A02602A6146690064A32E /* ServiceRepositoryImpl.swift */,
+				3C07EA9D2A6F705F00344BFA /* ArticleRepositoryImpl.swift */,
+				3C07EAAD2A6F888700344BFA /* AssetRepositoryImpl.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -274,19 +313,32 @@
 				3C07EA982A6E8D1C00344BFA /* ArticleDataSource.swift in Sources */,
 				3C2A02632A614B190064A32E /* MainScreen.swift in Sources */,
 				3C07EA962A6E7EDB00344BFA /* ServiceUseCase.swift in Sources */,
+				3C07EAAA2A6F845B00344BFA /* AssetModel.swift in Sources */,
 				3C99754D2A6523F800DE25A3 /* OtherScreen.swift in Sources */,
 				3C4893162A5FDAD900F6EED5 /* StokryptoApp.swift in Sources */,
+				3C07EAB62A6FC30600344BFA /* AssetItem.swift in Sources */,
+				3C07EAA42A6F743000344BFA /* NewsFeed.swift in Sources */,
+				3C07EAA02A6F710800344BFA /* ArticleModel.swift in Sources */,
 				3C2A02672A614B3A0064A32E /* FavoriteServices.swift in Sources */,
 				3C99754F2A65266400DE25A3 /* Balance.swift in Sources */,
 				3C2A025F2A61458D0064A32E /* ServiceRepository.swift in Sources */,
+				3C07EA9E2A6F705F00344BFA /* ArticleRepositoryImpl.swift in Sources */,
 				3C2A02652A614B270064A32E /* HomeScreen.swift in Sources */,
+				3C07EAAC2A6F883000344BFA /* AssetRepository.swift in Sources */,
 				3C2A02592A6140ED0064A32E /* Service.swift in Sources */,
 				3C2A025B2A6144830064A32E /* ServiceModel.swift in Sources */,
 				3C07EA942A6E763800344BFA /* ServiceDataSource.swift in Sources */,
+				3C07EAB02A6F88A300344BFA /* AssetDataSource.swift in Sources */,
+				3C07EAAE2A6F888700344BFA /* AssetRepositoryImpl.swift in Sources */,
+				3C07EAA62A6F749500344BFA /* ArticleUseCase.swift in Sources */,
 				3C9975472A6523DA00DE25A3 /* AssetScreen.swift in Sources */,
+				3C07EAB22A6FACD700344BFA /* AssetUseCase.swift in Sources */,
 				3C07EA9A2A6E8D7D00344BFA /* Article.swift in Sources */,
+				3C07EAA82A6F838100344BFA /* Asset.swift in Sources */,
 				3C2A02612A6146690064A32E /* ServiceRepositoryImpl.swift in Sources */,
+				3C07EA9C2A6F704400344BFA /* ArticleRepository.swift in Sources */,
 				3C9975492A6523E500DE25A3 /* TradingScreen.swift in Sources */,
+				3C07EAB42A6FB64300344BFA /* WatchList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ class ServiceRepositoryImpl: ServiceRepository {
     let localDataSource: ServiceLocalDataSource
     let remoteDataSource: ServiceRemoteDataSource
     
-    init(localDataSource: ServiceLocalDataSourceImpl, remoteDataSource: ServiceRemoteDataSourceImpl) {
+    init(localDataSource: ServiceLocalDataSource, remoteDataSource: ServiceRemoteDataSource) {
         self.localDataSource = localDataSource
         self.remoteDataSource = remoteDataSource
     }

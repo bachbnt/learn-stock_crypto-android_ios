@@ -8,16 +8,24 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    let useCase: ServiceUseCase = FetchServiceUseCase(repository: ServiceRepositoryImpl(localDataSource: ServiceLocalDataSourceImpl(), remoteDataSource: ServiceRemoteDataSourceImpl()))
+    let serviceUseCase: ServiceUseCase = FetchServiceUseCase(repository: ServiceRepositoryImpl(localDataSource: ServiceLocalDataSourceImpl(), remoteDataSource: ServiceRemoteDataSourceImpl()))
+    
+    let articleUseCase: ArticleUseCase = FetchArticleUseCase(repository: ArticleRepositoryImpl(localDataSource: ArticleLocalDataSourceImpl(), remoteDataSource: ArticleRemoteDataSourceImpl()))
+    
+    let assetUseCase: AssetUseCase = FetchAssetUseCase(repository: AssetRepositoryImpl(localDataSource: AssetLocalDataSourceImpl(), remoteDataSource: AssetRemoteDataSourceImpl()))
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Balance(balance: 200000)
-            FavoriteServices(data: useCase.invoke())
+        ScrollView {
+            VStack(alignment: .leading) {
+                Balance(balance: 200000)
+                FavoriteServices(data: serviceUseCase.invoke())
+                WatchList(data: assetUseCase.invoke())
+                NewsFeed(data: articleUseCase.invoke())
+            }
+            .frame(maxWidth: .infinity,
+                   maxHeight: .infinity,
+                   alignment: .topLeading)
         }
-        .frame(maxWidth: .infinity, // Full Screen Width
-               maxHeight: .infinity, // Full Screen Height
-               alignment: .topLeading)
     }
 }
 
