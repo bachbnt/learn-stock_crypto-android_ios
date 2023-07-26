@@ -31,23 +31,24 @@ struct AssetItem: View {
         GeometryReader { geo in
             HStack(spacing: 0) {
                 Text(symbol != nil ? symbol! : "Symbol")
-                    .frame(width: geo.size.width * 0.2)
+                    .frame(width: geo.size.width * 0.175)
                     .border(.black)
                 Text(price != nil ? String(format: "%.1f", price!) : "Price")
                     .foregroundColor(getColor(volatility: volatility))
-                    .frame(width: geo.size.width * 0.15)
+                    .frame(width: geo.size.width * 0.225)
                 Text(volatility != nil ? String(format: "%.1f", volatility!) : "+/-")
                     .foregroundColor(getColor(volatility: volatility))
-                    .frame(width: geo.size.width * 0.15)
+                    .frame(width: geo.size.width * 0.175)
                 Text(volatility != nil ? "\(String(format: "%.1f", volatilityPercent!))%" : "+/-(%)")
                     .foregroundColor(getColor(volatility: volatility))
                     .frame(width: geo.size.width * 0.15)
                 Text(volume != nil ? String(format: "%.1f", volume!) : "Volume")
-                    .frame(width: geo.size.width * 0.35)
+                    .frame(width: geo.size.width * 0.275)
             }
             .frame(width: geo.size.width)
             .border(.black)
         }
+
     }
 }
 

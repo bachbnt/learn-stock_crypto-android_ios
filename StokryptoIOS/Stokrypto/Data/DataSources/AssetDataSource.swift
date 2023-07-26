@@ -25,7 +25,7 @@ protocol AssetLocalDataSource {
 }
 
 protocol AssetRemoteDataSource {
-    func getAssets() -> [Asset]
+    func getAssets(type: String) -> [Asset]
     func postAsset() -> Bool
 }
 
@@ -40,8 +40,11 @@ class AssetLocalDataSourceImpl: AssetLocalDataSource {
 }
 
 class AssetRemoteDataSourceImpl: AssetRemoteDataSource {
-    func getAssets() -> [Asset] {
-        return assetStocks
+    func getAssets(type: String) -> [Asset] {
+        if type == "stock" {
+            return assetStocks
+        }
+        return assetCryptos
     }
     
     func postAsset() -> Bool {

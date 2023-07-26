@@ -8,7 +8,7 @@
 import Foundation
 
 protocol AssetUseCase {
-    func invoke() -> [Asset]
+    func invoke(type: String) -> [Asset]
 }
 
 class FetchAssetUseCase: AssetUseCase {
@@ -18,7 +18,7 @@ class FetchAssetUseCase: AssetUseCase {
         self.repository = repository
     }
     
-    func invoke() -> [Asset] {
-        return repository.getAssets()
+    func invoke(type: String) -> [Asset] {
+        return repository.getAssets(type: type)
     }
 }

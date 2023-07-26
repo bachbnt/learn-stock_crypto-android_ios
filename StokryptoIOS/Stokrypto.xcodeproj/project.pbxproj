@@ -35,6 +35,7 @@
 		3C48931A2A5FDADC00F6EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4893192A5FDADC00F6EED5 /* Assets.xcassets */; };
 		3C48931D2A5FDADC00F6EED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C48931C2A5FDADC00F6EED5 /* Preview Assets.xcassets */; };
 		3C7248E62A70FD4A00D82AD2 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7248E52A70FD4A00D82AD2 /* DIContainer.swift */; };
+		3C7248E82A71201200D82AD2 /* AssetDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7248E72A71201200D82AD2 /* AssetDetailScreen.swift */; };
 		3C9975472A6523DA00DE25A3 /* AssetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9975462A6523DA00DE25A3 /* AssetScreen.swift */; };
 		3C9975492A6523E500DE25A3 /* TradingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9975482A6523E500DE25A3 /* TradingScreen.swift */; };
 		3C99754B2A6523EE00DE25A3 /* MarketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99754A2A6523EE00DE25A3 /* MarketScreen.swift */; };
@@ -72,6 +73,7 @@
 		3C4893192A5FDADC00F6EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C48931C2A5FDADC00F6EED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C7248E52A70FD4A00D82AD2 /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		3C7248E72A71201200D82AD2 /* AssetDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailScreen.swift; sourceTree = "<group>"; };
 		3C9975462A6523DA00DE25A3 /* AssetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetScreen.swift; sourceTree = "<group>"; };
 		3C9975482A6523E500DE25A3 /* TradingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingScreen.swift; sourceTree = "<group>"; };
 		3C99754A2A6523EE00DE25A3 /* MarketScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketScreen.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				3C9975482A6523E500DE25A3 /* TradingScreen.swift */,
 				3C99754A2A6523EE00DE25A3 /* MarketScreen.swift */,
 				3C99754C2A6523F800DE25A3 /* OtherScreen.swift */,
+				3C7248E72A71201200D82AD2 /* AssetDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				3C07EA982A6E8D1C00344BFA /* ArticleDataSource.swift in Sources */,
 				3C2A02632A614B190064A32E /* MainScreen.swift in Sources */,
 				3C07EA962A6E7EDB00344BFA /* ServiceUseCase.swift in Sources */,
+				3C7248E82A71201200D82AD2 /* AssetDetailScreen.swift in Sources */,
 				3C07EAAA2A6F845B00344BFA /* AssetModel.swift in Sources */,
 				3C99754D2A6523F800DE25A3 /* OtherScreen.swift in Sources */,
 				3C4893162A5FDAD900F6EED5 /* StokryptoApp.swift in Sources */,

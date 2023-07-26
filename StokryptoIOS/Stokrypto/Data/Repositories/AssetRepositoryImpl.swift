@@ -16,7 +16,7 @@ class AssetRepositoryImpl: AssetRepository {
         self.remoteDataSource = remoteDataSource
     }
     
-    func getAssets() -> [Asset] {
-        return remoteDataSource.getAssets()
+    func getAssets(type: String) -> [Asset] {
+        return remoteDataSource.getAssets(type: type)
     }
 }

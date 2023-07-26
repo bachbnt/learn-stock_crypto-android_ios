@@ -8,5 +8,5 @@
 import Foundation
 
 protocol AssetRepository {
-    func getAssets() -> [Asset]
+    func getAssets(type: String) -> [Asset]
 }

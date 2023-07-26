@@ -17,7 +17,7 @@ struct HomeScreen: View {
             VStack(alignment: .leading) {
                 Balance(balance: 200000)
                 FavoriteServices(data: serviceUseCase?.invoke() ?? [])
-                WatchList(data: assetUseCase?.invoke() ?? [])
+                WatchList(stocks: assetUseCase?.invoke(type: "stock") ?? [], cryptos: assetUseCase?.invoke(type: "crypto") ?? [])
                 NewsFeed(data: articleUseCase?.invoke() ?? [])
             }
             .frame(maxWidth: .infinity,
